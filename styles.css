@@ -1,0 +1,192 @@
+.menubar{
+background-color: aliceblue;
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar-left1{
+    
+    background-color:white;
+}
+.navbar-left2{
+    font-size: 25px;
+}
+.img{
+        height: 22px;
+        width: auto;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar-btn{
+background-color: antiquewhite;
+}
+.btn:hover{
+    background-color: lightgray;
+}
+.navbar-centre{
+    display: flex;
+}
+.navbar-centre1{
+    display: flex;
+    margin-right: 6px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: baseline;
+}
+.account{
+    background-color: brown;
+    color: antiquewhite;
+    border: none;
+    font-size: 23px;
+    color: azure;
+}
+.btn{
+    cursor: pointer;
+    border: none;
+}
+.text-search{
+height: 100%;
+width: 100%;
+    border-radius: 3rem 0 0 3rem;
+    border:1px solid beige;
+    padding: 0 1 rem;
+    font-size: 1rem;
+}
+.search-icon{
+    border-radius: 0 23px 23px 0;
+    height:auto;
+}
+.voice-search{
+    height: auto;
+    border-radius: 15px;
+}
+.title{
+  font-family:   Roboto, Arial, sans-serif;
+  font-size: 20px;
+}
+.create-icon{
+    border-radius: 15px;
+}
+.notification,.navbar-btn,.account-btn{
+    background: transparent;
+    
+}
+.account-btn{
+    background-color: maroon;
+        border-radius: 70%;
+}
+.category-button{
+    cursor:pointer ;
+    border:none;
+    height: 25px;
+    border-radius: 0.4rem;
+    
+}
+.category-list{
+    white-space: nowrap;
+    overflow-x: none;
+    padding-top: 1rem;
+}
+.main-layout{
+    display: flex;
+}
+.channel-logo{
+    width: 36px;
+    height:36px;
+    border-radius: 50%;
+}
+.videocard{
+   text-decoration: none;
+   display:inline-block;
+   margin: 0.5rem;
+
+}
+.title-logo{
+    display:flex;
+    align-items: center;
+    gap:1rem;
+     padding: 0;
+    margin: 0;
+}
+.videos{
+   
+    display:grid;
+    grid-template-columns: repeat(autofill,minmax(300px,1fr));
+    gap:1rem;
+    padding:1rem;
+    
+}
+.videocard{
+border:none;
+margin: 0;
+    width:100%;
+    width: 300px;
+    
+
+}
+.thumbnail{
+    width: 100%;
+    border-radius: 0.5rem;
+    aspect-ratio: 16/9;
+
+}
+.video-title{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    
+    white-space: nowrap;
+    color:black;
+        padding: 0;
+    margin: 0;
+}
+.video-description{
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 14px;
+    line-height:1;
+    font-weight: 400;
+    padding-left: 3rem;
+     color:black;
+    padding: 0;
+    margin: 0;
+    padding-left: 3rem;
+    
+    
+}
+.channel-name,.views{
+    margin: 0;
+    padding: 0;
+}
+.duration{
+    margin: 0;
+}
+.link-section1,.link-section2,.link-section3,.link-section4{
+    display:grid;
+    align-items: center;
+    margin-bottom: 1rem;
+    
+}
+.link{
+    align-items: center;
+}
+.link-container{
+    margin-top: 1rem;
+    align-items: center;
+    padding-left: 1rem;
+}
+.link-item{
+        margin-left: 4px;
+}
+
+
+
